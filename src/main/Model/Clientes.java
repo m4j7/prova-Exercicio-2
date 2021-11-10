@@ -31,7 +31,7 @@ public class Clientes {
 
     @Override
     public String toString() {
-        return "ClientesModel{" +
+        return "Clientes{" +
                 "nome='" + nome + '\'' +
                 ", id=" + id +
                 '}';

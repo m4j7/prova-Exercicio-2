@@ -10,7 +10,7 @@ import java.util.List;
 public class ClienteController {
 
 
-    List<Clientes> listaCliente = new ArrayList<Clientes>();
+    private List<Clientes> listaCliente = new ArrayList<Clientes>();
 
 
     public void cadastraCategoria(Clientes clientes) throws IOException {
@@ -42,6 +42,11 @@ public class ClienteController {
 
     }
 
+    public long acessarCliente (int id){
+
+        return listaCliente.get(id-1).getId();
+
+    }
 
 
 
